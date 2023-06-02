@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -50,4 +50,137 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.modal {
+  border: 1px solid black;
+  width: 700px;
+  height: 470px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.modal i {
+  position: absolute;
+  left: 680px;
+  top: 3px;
+}
+.modal .modal-button {
+  width: 200px;
+  height: 60px;
+  background: #FFD76E;
+  border-radius: 10px;
+  border: 1px solid #FFD76E;
+  margin-top: 23px;
+  margin-left: 33%;
+  font-size: 24px;
+}
+.modal h6 {
+  width: 602px;
+  height: 39px;
+  font-family: "Inter";
+  font-size: 32px;
+  margin-left: 52px;
+  margin-right: 46px;
+}
+.modal p {
+  font-size: 24px;
+  font-family: "Inter";
+  margin-left: 48px;
+  margin-top: 16px;
+}
+.modal input {
+  width: 600px;
+  height: 50px;
+  background: rgba(140, 186, 255, 0.27);
+  border-radius: 10px;
+  margin-left: 48px;
+  margin-top: 4px;
+}
+
+.modal2 {
+  border: 1px solid black;
+  width: 700px;
+  height: 400px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.modal2 i {
+  position: absolute;
+  left: 670px;
+  top: 35px;
+  color: black;
+  font-size: 24px;
+}
+.modal2 .modal-button {
+  width: 200px;
+  height: 60px;
+  background: #FFD76E;
+  border-radius: 10px;
+  border: 1px solid #FFD76E;
+  margin-top: 23px;
+  margin-left: 33%;
+  font-size: 24px;
+}
+.modal2 h6 {
+  width: 602px;
+  height: 39px;
+  font-family: "Inter";
+  font-size: 32px;
+  margin-left: 52px;
+  margin-right: 46px;
+}
+.modal2 p {
+  font-size: 24px;
+  font-family: "Inter";
+  margin-left: 48px;
+  margin-top: 16px;
+}
+.modal2 input {
+  width: 600px;
+  height: 50px;
+  background: rgba(140, 186, 255, 0.27);
+  border-radius: 10px;
+  margin-left: 48px;
+  margin-top: 4px;
+}
+
+.modal3 {
+  width: 837px;
+  height: 577px;
+  border: 1px solid black;
+  background: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+.modal3 i {
+  position: absolute;
+  left: 820px;
+  top: 3px;
+  color: black;
+  font-size: 24px;
+}
+.modal3 .modal-img {
+  width: 422px;
+  height: 512px;
+  margin-top: 40px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.modal3 h3 {
+  font-family: "Inter";
+  font-size: 30px;
+  margin-left: 43px;
+  margin-right: 40px;
+  margin-top: 40px;
+  height: 39px;
+  width: 292px;
+}
+.modal3 p {
+  font-size: 24px;
+  width: 300px;
+  height: 252px;
+  margin-bottom: 174px;
+  margin-top: 72px;
+  margin-left: 38px;
 }
