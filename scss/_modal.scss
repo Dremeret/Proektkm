@@ -12,6 +12,15 @@
   }  
 
 
+
+position: fixed;
+z-index: 2;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+
+
 .modal-button{
     width: 200px;
     height: 60px;
@@ -228,6 +237,159 @@ p{
 // }
 // }
 }
+
+
+
+
+
+
+// HEADER  
+
+header{
+    background-image: url(../img/Background1.svg );
+}
+
+nav{
+    display: block;
+    width: 560px;
+    height: 20px;
+
+
+
+
+
+
+     .first{
+        list-style-type: none;
+        position: absolute;
+        top: 10px;
+        right: 690px;
+        font-size: 16px;
+        font-family: 'Inter';
+        font-style: normal;
+}
+
+     .second{
+        list-style-type: none;
+        position: absolute;
+        top: 10px;
+        right: 620px;
+        font-size: 16px;
+        font-family: 'Inter';
+        font-style: normal;
+     }
+      .third{
+        list-style-type: none;
+        position: absolute;
+        top: 10px;
+        right: 550px; 
+        font-size: 16px;
+        font-family: 'Inter';
+        font-style: normal;
+      }
+      .fourth{
+        list-style-type: none;
+        position: absolute;
+        top: 10px;
+        right: 420px ;
+        font-size: 16px;
+        font-family: 'Inter';
+        font-style: normal;
+      }
+      .fifth{
+        list-style-type: none;
+        position: absolute;
+        top: 10px;
+        right: 310px;
+        
+        font-size: 16px;
+        font-family: 'Inter';
+        font-style: normal;
+      }
+      .sixth{
+        list-style-type: none;
+        position: absolute;
+        top: 10px;
+        right: 200px;
+        font-size: 16px;
+        font-family: 'Inter';
+        font-style: normal;
+      }
+}
+
+h1{
+
+    font-family: 'Inter';
+    font-size: 120px;
+    width: 982px;
+    height: 155px;
+
+    margin-top: 123px;
+
+
+
+}
+    h5{
+
+        font-family: 'Inter';
+        font-size: 64px;
+    
+        width: 300px;
+        height: 77px;
+        
+        margin-top: 8px;
+    
+    }
+
+.text{
+    font-family: 'Inter';
+    width: 459px;
+    height: 150px;
+    margin-top: 30px;
+    font-size: 24px;
+
+}
+
+
+
+.button{
+    width: 200px;
+    height: 60px;
+    margin-top: 48px;
+    border: 1px solid  #FFD76E;
+    background:  #FFD76E;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+
+
+.group{
+    margin-left: 142px;
+
+}
+
+
+.get{
+    margin-left: 676px;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
