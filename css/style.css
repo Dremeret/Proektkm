@@ -67,8 +67,8 @@ table {
 }
 .modal i {
   position: absolute;
-  left: 680px;
-  top: 3px;
+  right: 16px;
+  top: 16px;
 }
 .modal .modal-button {
   width: 200px;
@@ -85,8 +85,8 @@ table {
   height: 39px;
   font-family: "Inter";
   font-size: 32px;
+  margin-top: 30px;
   margin-left: 52px;
-  margin-right: 46px;
 }
 .modal p {
   font-size: 24px;
@@ -97,6 +97,7 @@ table {
 .modal input {
   width: 600px;
   height: 50px;
+  border: 1px solid rgba(140, 186, 255, 0.27);
   background: rgba(140, 186, 255, 0.27);
   border-radius: 10px;
   margin-left: 48px;
@@ -109,11 +110,17 @@ table {
   height: 400px;
   background: #FFFFFF;
   border-radius: 10px;
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .modal2 i {
   position: absolute;
   left: 670px;
-  top: 35px;
+  right: 16px;
+  top: 16px;
   color: black;
   font-size: 24px;
 }
@@ -132,21 +139,22 @@ table {
   height: 39px;
   font-family: "Inter";
   font-size: 32px;
-  margin-left: 52px;
-  margin-right: 46px;
+  padding-top: 16px;
+  margin-left: 49px;
 }
 .modal2 p {
   font-size: 24px;
   font-family: "Inter";
-  margin-left: 48px;
-  margin-top: 16px;
+  margin-left: 50px;
+  padding-top: 40px;
 }
 .modal2 input {
   width: 600px;
   height: 50px;
+  border: 1px solid rgba(140, 186, 255, 0.27);
   background: rgba(140, 186, 255, 0.27);
   border-radius: 10px;
-  margin-left: 48px;
+  margin-left: 50px;
   margin-top: 4px;
 }
 
@@ -158,11 +166,16 @@ table {
   border-radius: 10px;
   display: flex;
   position: relative;
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .modal3 i {
   position: absolute;
-  left: 820px;
-  top: 3px;
+  right: 16px;
+  top: 16px;
   color: black;
   font-size: 24px;
 }
@@ -181,8 +194,11 @@ table {
   margin-top: 40px;
   height: 39px;
   width: 292px;
+  color: #131C6A;
 }
 .modal3 p {
+  font-family: "Inter";
+  color: #000000;
   font-size: 24px;
   width: 300px;
   height: 252px;
@@ -192,79 +208,89 @@ table {
 }
 
 header {
-  background-image: url(../img/Background1.svg);
+  background-image: url(../img/Background1.png);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav {
-  display: block;
-  width: 560px;
-  height: 20px;
+  height: 72px;
+  background-color: black;
 }
 nav .first {
   list-style-type: none;
   position: absolute;
-  top: 10px;
+  top: 25px;
   right: 690px;
   font-size: 16px;
   font-family: "Inter";
   font-style: normal;
+  color: #FFFFFF;
 }
 nav .second {
   list-style-type: none;
   position: absolute;
-  top: 10px;
+  top: 25px;
   right: 620px;
   font-size: 16px;
   font-family: "Inter";
   font-style: normal;
+  color: #FFFFFF;
 }
 nav .third {
   list-style-type: none;
   position: absolute;
-  top: 10px;
+  top: 25px;
   right: 550px;
   font-size: 16px;
   font-family: "Inter";
   font-style: normal;
+  color: #FFFFFF;
 }
 nav .fourth {
   list-style-type: none;
   position: absolute;
-  top: 10px;
+  top: 25px;
   right: 420px;
   font-size: 16px;
   font-family: "Inter";
   font-style: normal;
+  color: #FFFFFF;
 }
 nav .fifth {
   list-style-type: none;
   position: absolute;
-  top: 10px;
+  top: 25px;
   right: 310px;
   font-size: 16px;
   font-family: "Inter";
   font-style: normal;
+  color: #FFFFFF;
 }
 nav .sixth {
   list-style-type: none;
   position: absolute;
-  top: 10px;
+  top: 25px;
   right: 200px;
   font-size: 16px;
   font-family: "Inter";
   font-style: normal;
+  color: #FFFFFF;
 }
 
 h1 {
   font-family: "Inter";
+  color: #FFFFFF;
   font-size: 120px;
   width: 982px;
   height: 155px;
-  margin-top: 123px;
+  padding-top: 48px;
 }
 
 h5 {
   font-family: "Inter";
+  color: #FFFFFF;
   font-size: 64px;
   width: 300px;
   height: 77px;
@@ -273,6 +299,7 @@ h5 {
 
 .text {
   font-family: "Inter";
+  color: #FFFFFF;
   width: 459px;
   height: 150px;
   margin-top: 30px;
@@ -295,5 +322,172 @@ h5 {
 
 .get {
   margin-left: 676px;
-  margin-top: 70px;
+  margin-top: 84px;
+  color: #FFFFFF;
+  font-family: "Inter";
+}
+
+.V {
+  margin-top: 10px;
+  margin-left: 710px;
+  color: #FFFFFF;
+}
+
+section {
+  background: #050404;
+  height: 1300px;
+}
+
+h2 {
+  width: 609px;
+  height: 116px;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #FFD76E;
+  padding-top: 40px;
+  margin-left: 438px;
+}
+
+.section-p {
+  width: 892px;
+  height: 80px;
+  color: #FFFFFF;
+  margin-top: 40px;
+  margin-left: 297px;
+}
+.section-p p {
+  font-family: "Inter";
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.square1 {
+  border: 2px solid #FFD76E;
+  height: 247px;
+  width: 369px;
+  position: absolute;
+  left: -352px;
+  top: 918px;
+  transform: matrix(0.99, -0.15, 0.17, 0.98, 0, 0);
+}
+
+.square2 {
+  border: 2px solid #FFFFFF;
+  height: 179px;
+  width: 340px;
+  position: absolute;
+  left: -190px;
+  top: 1013px;
+  transform: matrix(0.99, -0.15, 0.17, 0.98, 0, 0);
+}
+
+.square3 {
+  border: 2px solid #FFFFFF;
+  height: 239px;
+  width: 460px;
+  position: absolute;
+  left: 540px;
+  top: 1700px;
+}
+
+.square4 {
+  border: 2px solid #FFD76E;
+  width: 334px;
+  height: 493px;
+  position: absolute;
+  left: 372px;
+  top: 1400px;
+}
+
+.p {
+  color: #FFD76E;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Inter";
+  position: absolute;
+  top: 1550px;
+  left: 880px;
+}
+
+.Oleksiy {
+  color: #FFFFFF;
+  position: absolute;
+  left: 556px;
+  top: 1430px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter";
+}
+.Oleksiy p {
+  padding-top: 10px;
+}
+
+.Taras {
+  color: #FFFFFF;
+  position: absolute;
+  left: 318px;
+  top: 1700px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter";
+}
+.Taras p {
+  padding-top: 10px;
+}
+
+.Teodora {
+  color: #FFFFFF;
+  position: absolute;
+  left: 880px;
+  top: 1610px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter";
+}
+.Teodora p {
+  padding-top: 10px;
+}
+
+.Djesika {
+  color: #FFFFFF;
+  position: absolute;
+  left: 645px;
+  top: 1700px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter";
+}
+.Djesika p {
+  padding-top: 10px;
+}
+
+.section-2 {
+  background-image: url(../img/Background2.png);
+  height: 297px;
+  width: 1740px;
+  position: absolute;
+  top: 2100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-2 h3 {
+  padding-left: 619px;
+  padding-top: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+.section-2 p {
+  width: 351px;
+  height: 92px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 600px;
+  padding-top: 25px;
 }
