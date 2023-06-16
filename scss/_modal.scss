@@ -277,7 +277,12 @@ nav{
 
 
 
+     .one:hover{
 
+        text-shadow:  2px 2px 20px  green;
+    
+    
+     }
 
 
      .first{
@@ -300,6 +305,7 @@ nav{
         font-family: 'Inter';
         font-style: normal;
         color: #FFFFFF;
+    
      }
       .third{
         list-style-type: none;
@@ -310,6 +316,8 @@ nav{
         font-family: 'Inter';
         font-style: normal;
         color: #FFFFFF;
+
+
       }
       .fourth{
         list-style-type: none;
@@ -610,13 +618,20 @@ h2{
         width: 351px;
         height: 92px;
         
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        padding-left: 600px;
-        padding-top:25px;
+       
+
+        
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+padding-left: 562px;
+ padding-top:25px;
+
     }
 }
 

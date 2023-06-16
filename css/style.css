@@ -218,6 +218,9 @@ nav {
   height: 72px;
   background-color: black;
 }
+nav .one:hover {
+  text-shadow: 2px 2px 20px green;
+}
 nav .first {
   list-style-type: none;
   position: absolute;
@@ -488,6 +491,8 @@ h2 {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  padding-left: 600px;
+  text-align: center;
+  color: #000000;
+  padding-left: 562px;
   padding-top: 25px;
 }
